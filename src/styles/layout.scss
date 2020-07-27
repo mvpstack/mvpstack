@@ -1,0 +1,77 @@
+body {
+    // font-family: 'Lexend Deca', sans-serif;
+    background-color: #f9fafb;
+}
+
+h1, h2, h3 {
+    color: #000;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+p {
+    font-size: 1rem;
+    color: #595451;
+    font-family: 'Sen', sans-serif;
+    span {
+        color: #000;
+        text-decoration: underline;
+        a {
+            color: #000;
+        }
+    }
+}
+
+// header
+
+header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    h2 {
+        line-height: 1;
+    }
+    p {
+        max-width: 600px;
+    }
+}
+
+.h3-heading {
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    border-left: 2px solid #000;
+    background-color: #f2f2f2;
+    display: inline-block;
+    padding: 3px 25px 3px 10px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+}
+
+.contact {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 10px;
+    p {
+        max-width: 600px;
+    }
+    .social-links {
+        padding: 0;
+        margin: 0;
+        font-family: 'Lexend Deca', sans-serif;
+        list-style: none;
+        li {
+            display: inline-block;
+            
+            margin-right: 20px;
+            a {
+                display: flex;
+                align-items: center;
+                font-family: 'Lexend Deca', sans-serif;
+                span {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
