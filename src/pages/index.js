@@ -13,7 +13,7 @@ const IndexPage = () => (
 
     <div className="contact">
             <h3 className="h3-heading">Contact</h3>
-            <p>If you have <span>any question</span> or wants to convert your <span>idea</span> into MVP in <span>days</span> just drop mail at <span>hi@mvpstack.io</span></p>
+            <p>If you have <span>any question</span> or wants to convert your <span>idea</span> into MVP in <span>days</span> just drop mail at <span>hello@mohddanish.me</span></p>
             <ul className="social-links">
       <li><a href="https://twitter.com/mvpstackhq" target="_blank"><FiGithub /> <span>Twitter</span></a></li>
       <li><a href="https://github.com/mvpstack" target="_blank"><FiTwitter /> <span>GitHub</span></a></li>
